@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Example font */
+    color: #333;
+    background-color: #f4f4f4; /* Background from Figma */
+}
+
+header {
+    /* Styles for header */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif; /* Example font */
+        color: #333;
+        background-color: #f4f4f4; /* Background from Figma */
+    }
+    
+    header {
+        /* Styles for header */
+    }
+    
+    main {
+        /* Styles for the main content */
+    }
+    
+    footer {
+        /* Styles for footer */
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        /* Adjust layout for smaller screens */
+    }
+    
+}
+
+main {
+    /* Styles for the main content */
+}
+
+footer {
+    /* Styles for footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust layout for smaller screens */
+}
