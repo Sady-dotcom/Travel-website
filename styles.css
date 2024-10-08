@@ -1,24 +1,4 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.header-container{
-    display:flex ;
-    justify-content: space-between;
-    padding: 16px,20px,16px,20px;
-}
-.h1{
-    width: 52px;
-    height: 19px;
-    border: 0.7px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    size: 16px;
-    line-height: 18.83px;
-    letter-spacing: 10%;
-    color: #25A59E;
-}
+:root{
+color: #25A59E;
 
-
-
+}
