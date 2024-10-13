@@ -18,37 +18,62 @@ body{
     font-family: 'Gilda Display', 'Urbanist';
 }
 .header{
-    width: 375px;
-    height: 473px;
-    top: -3px;
-    gap: 0px;
-    opacity: 0px;
+    text-align:center ;
+    padding: 20px;
+    position: relative;
+}
+ .text{
     
+    padding-right: 20%;
+padding-left: 25%;
+ }
+ .nav-menu{
+    display: none;
+ }
+/* Flexbox for inline display of logo and menu icon */
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
-.nav{
-   display: flex;
-   justify-content: space-between; 
-   width: 375px;
-   height: 60px;
-   padding: 16px,20px,16px,20px;
-}
-.logo-head{
-    font-family: Gilda Display;
-font-size: 16px;
-font-weight: 400;
-line-height: 18.83px;
-text-align: left;
+ /* Spacing for the lines icon */
+ .menu-toggle span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #262626;
+    margin: 5px;
+ }
+ .h1{
+    font-size: 16px;
+    color: #25A59E; /* Matching the travel text color */
+    }
+    .travel{
+size: 52px;
 color: #25A59E;
-margin-right: 375px;
-}
-.line{
-    
-}
- 
+    }
 
- 
+    .hero-img {
+        
+        height: auto;
+        border-radius: 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .blur-background{
+        position: absolute;  
+        width: 150px;
+        height:150px ;
+        background-color: #44d5cd; /* Orange background */
+        border-radius:50% ;
+        filter: blur(40px); /* Creates the blur effect */
+        left: 270px;
+        z-index: 1;
+
+
+    
+    }
 
 
 
