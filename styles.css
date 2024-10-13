@@ -3,4 +3,61 @@
 --brand-color: #25A59E;
 --neutal-color:#F2F2F2;
 --white-color:#FFFFFF;
+--orange-color:#EE8F39;
 }
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Gilda Display', 'Urbanist';
+}
+.header{
+    width: 375px;
+    height: 473px;
+    top: -3px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+
+.nav{
+   display: flex;
+   justify-content: space-between; 
+   width: 375px;
+   height: 60px;
+   padding: 16px,20px,16px,20px;
+}
+.logo-head{
+    font-family: Gilda Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.83px;
+text-align: left;
+color: #25A59E;
+margin-right: 375px;
+}
+.line{
+    
+}
+ 
+
+ 
+
+
+
+
+   
+
+    
+
+ 
+
+
+    
