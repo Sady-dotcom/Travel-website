@@ -17,234 +17,196 @@ body{
     margin: 0;
     font-family: 'Gilda Display', 'Urbanist';
 }
-
-
 .header{
-    text-align:center ;
-    padding: 20px;
-    position: relative;
-}
- .text{
-    
-    padding-right: 40%;
-padding-left: 40%;
-padding-bottom: 5%;
- }
- .nav-menu{
-    display: none;
- }
-/* Flexbox for inline display of logo and menu icon */
-.logo-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
- /* Spacing for the lines icon */
- .menu-toggle span{
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #262626;
-    margin: 5px;
- }
-
- .nav-menu ul li a{
-    text-decoration: none;
-    color: #333;
- }
- .h1{
-    font-size: 16px;
-    color: #25A59E; /* Matching the travel text color */
-    }
-
-
-    .hero{
-        position: relative;
-        display: inline-block;
-        max-width: 500px;
-        margin: auto;
-
-    }
-    .travel {
-size: 52px;
-color: #25A59E;
-
-    }
-
-.h2{
-    font-weight: 400px;
-    size: 62px;
-    align-items: center;
-    height: 61px;
-    padding-top: 20px;
-
-}
-
-
-
-
-    .hero-img {
-        
-        height: auto;
-        border-radius: 10px;
-        position: relative;
-        z-index: 2;
-    }
-
-    .blur-background{
-        position: absolute;  
-        width: 150px;
-        height:150px ;
-        background-color: #44d5cd; /* Orange background */
-        border-radius:50% ;
-        filter: blur(80px); /* Creates the blur effect */
-        left: 100px;
-        top: 30px;
-    
-        
-        z-index: 1;
-}
-/* End of header */
-
-
-.destination{
     width: 375px;
-    height: 370px;
-    top: 457px;
-    padding: 80px,20px,80px,20px;
-    gap: 10px;
-    color:#FFFFFF ;
-    margin: 0 auto;
-    
-    
-    
-    
-}
-.destination-heading{
-font-weight: 400px;
-font-size: 40px;
-line-height: 52px;
-color:#262626 ;
-border:  #262626;
-}
-.paragraph{
-   font-weight: 500px;
-   font-size: 16px;
-   line-height: 24px; 
-   color: #595959;
-}
-.mirror-lake-heading{
- font-weight: 700px;
- font-size: 20px;
- line-height: 28px;   
-}
-.destination-location-text{
-    font-weight: 600px;
-    font-size: 16px;
-    line-height: 24px;
-    color:#262626 ;
-    width: 271px;
-    height: 24px;
-}
-
-/* End of destination */
-
-
-.hot-air-ballon{
-    width: 370.67px;
-    height: 404px;
-    top: 1136px;
-    left: 3px;
-    border:#F2F2F2, 1px;
-    padding: 16px,16px,60px,16px,28px;
-    margin: 0 auto;
-    margin-top: 150px;
-
-    
-    }
-    
-    .drop-shadow{
-        box-shadow: -55.45px 50.41px 98px 0px #3736640A;
-
-        box-shadow: 105.45px 50.41px 78.04px 0px #3736640D;
-           
-    }
-    .ballon-img{
-     width: 338.67px;
-     height: 248px;   
+    height: 473px;
+    top: -3px;
+    gap: 0px;
+    opacity: 0px;
      
-
-
-    }
-    .hot-air-heading{
-      font-weight: 700px;
-      font-size: 24px;
-      line-height: 36px;
-      color: #262626; 
-      
-      
-      
-      
-    }
-    .location-icon{
-       display: flex; 
-       width: 24px;
-       height: 24px;
-       
-    }
-    .location-text{
-        font-weight: 600px;
-        font-size: 18px;
-        line-height: 32px;
-        color: #262626;
-        
-    }
-    /* End of hot air ballon */
-
-   .oeschinen-lake{
-    width: 370.67px;
-    height: 404px;
-    top: 1px;
-    border: 1px;
-    padding: 16px,16px,36px,16px;
-    gap: 28px;
-    margin: 0 auto;
-    margin-bottom: 180px;
-   }
-
-   .drop-shadow{
-    box-shadow: -55.45px 50.41px 98px 0px #3736640A;
-
-box-shadow: 105.45px 50.41px 78.04px 0px #3736640D;
-
-   }
-   .lake-img{
-    width: 338.67px;
-    height: 248px;
-   }
-   .oeschinen-lake-heading{
-    width: 33o.67px;
-    height: 36px;
-    font-weight: 700px;
-    font-size: 24px;
-    line-height: 36px;
-    color: #262626;
-    
-    
-   }
-.location-icon{
+}
+.nav{
+    width: Fixed (375px)px;
+height: Fixed (60px)px;
+padding: 16px 20px 16px 20px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+display: flex;
+}
+.logo{
+    width: 52px;
+height: 19px;
+gap: 0px;
+border: 0.7px 0px 0px 0px;
+opacity: 0px;
+font-family: Gilda Display;
+font-size: 16px;
+font-weight: 500px;
+line-height: 18.83px;
+letter-spacing: 0.1em;
+text-align: left;
+color: #25A59E;
+}
+.logo-menu{
     width: 24px;
     height: 24px;
-    display: flex;
+    gap: 0px;
+    opacity: 0px;
 }
-.location-text{
-    width: 298.67px;
-    height: 32px;
-    font-weight: 600px;
-    font-size: 18px;
-    line-height: 32px;
-    color: #262626;
-    padding-bottom: 20px;
+.travel-header{
+    width: 327px;
+    height: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 61.2px;
+    text-align: center;
+     
 }
-/* End of oeschinen lake */
+.travel-h{
+    color: #25A59E;
+}
+.img-container{
+    
+}
+       
+ 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more-details-btn{
+    cursor: pointer;
+display: flex;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+color: #25A59E;
+  align-items: center;
+  
+}
+.arrow-img{
+    margin-left: 10px;
+    gap: 0px;
+    opacity: 0px;
+     color:#25A59E ;
+
+}
+.subsection-3{
+    width:  (335px)px;
+    height: (254px)px;
+    padding: 28px 20px 32px 20px;
+    gap: 40px;
+    opacity: 0px;
+    background: #25A59E;
+   
+    
+}
+.drop-shadow{
+    box-shadow: 10px 26px 150px 0px #4343641A;
+  
+}
+.always-heading{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    opacity: 0px;
+font-size: 28px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+color: #FFFFFF;
+}
