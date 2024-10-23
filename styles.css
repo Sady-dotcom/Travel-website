@@ -698,6 +698,9 @@ text-align: center;
     opacity: 0px;
     margin-bottom: 90px; 
 }
+.play{
+margin-bottom: 60;
+}
 .footer{
     width: Fixed (375px)px;
 height: Hug (553px)px;
@@ -726,7 +729,7 @@ color: #FFFFFF;
     line-height: 38px;
     text-align: left;
     color: #262626; 
-    margin-top: -170px;
+    margin-top: -100px;
 }
 .button{
     width: Hug (147px)px;
