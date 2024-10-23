@@ -64,149 +64,844 @@ color: #25A59E;
     font-weight: 400;
     line-height: 61.2px;
     text-align: center;
+    margin-top: 110px;
+    
      
 }
 .travel-h{
     color: #25A59E;
 }
 .img-container{
-    
+    width: Fixed (375px)px;
+height: Hug (323px)px;
+top: 150px;
+padding: 0px 24px 0px 24px;
+gap: 0px;
+opacity: 0px;
+
 }
-       
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.more-details-btn{
-    cursor: pointer;
-display: flex;
-font-size: 15px;
-font-weight: 400;
-line-height: 23px;
-color: #25A59E;
-  align-items: center;
-  
+.blurry{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 170px;
+  margin-left: 50px;  
 }
-.arrow-img{
-    margin-left: 10px;
+.ellipse{
+    position: absolute;
+    top: 319px;
+    left: 0;
+    margin-left: 50px;
+    width: 400px;
+    height: 315px;
+}
+.hero{
+    width: 432.6px;
+    height: 228px;
+    top: 24px;
+    left: 16.8px;
     gap: 0px;
     opacity: 0px;
-     color:#25A59E ;
+     position: absolute;
+     top: 287px;
+}
+.destination{
+    width: Fixed (375px)px;
+    height: Hug (730px)px;
+    top: 457px;
+    padding: 80px 20px 80px 20px;
+    gap: 100px;
+    opacity: 0px;
+     
+}
+.mirror-lake-container{
+    width: Fill (335px)px;
+height: Hug (164px)px;
+gap: 20px;
+opacity: 0px;
 
 }
-.subsection-3{
-    width:  (335px)px;
-    height: (254px)px;
+.destination-header{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+font-family: Gilda Display;
+font-size: 45px;
+font-weight: 400px;
+line-height: 40px;
+text-align: left;
+color:#262626 ;
+border: 0.2px solid #262626
+}
+.destination-paragraph{
+    width: 335px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+ 
+}
+.img-lake-container{
+    width: Fill (335px)px;
+    height: Fixed (378px)px;
+    padding: 12px 12px 24px 12px;
+    gap: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;  
+    border: 1px solid #F2F2F2
+}
+.img-lake{
+    width: 311px;
+    height: 262px;
+    gap: 0px;
+    opacity: 0px;
+}
+.rotate{
+    rotate: 180 deg;
+}
+.location-container{
+    width: Fill (311px)px;
+    height: Hug (60px)px;
+    padding: 0px 4px 0px 4px;
+    gap: 8px;
+    opacity: 0px;
+}
+.location-text-header{
+    width: 303px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+ color:#262626 ;
+}
+.location-icon{
+    width: 24px;
+    height: 24px;
+    padding: 2px 3.5px 2px 3.5px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.location-text{
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+     color:#262626 ;
+ display: inline-block;
+ vertical-align: middle;
+}
+.ballon-container{
+    width: Fixed (370.67px)px;
+    height: Fixed (404px)px;
+    top: 1136px;
+    left: 3px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color:#FFFFFF ;
+    border: 1px solid #F2F2F2
+}
+.ballon-img{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+       
+}
+.ballon-location-container{
+    width: Fill (338.67px)px;
+    height: Hug (76px)px;
+    padding: 0px 4px 0px 4px;
+    gap: 8px;
+    opacity: 0px;
+     
+}
+.oeschinen-container{
+    width: Fixed (370.67px)px;
+    height: Fixed (404px)px;
+    top: 1540px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    border: 1px solid #F2F2F2
+}
+.oeschinen-img{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+}
+.oeschinen-location-container{
+    width: Fill (338.67px)px;
+    height: Hug (76px)px;
+    padding: 0px 4px 0px 4px;
+    gap: 8px;
+    opacity: 0px;
+     
+}
+.oeschinen-location-text{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #262626;
+}
+.rhine-container{
+    width: Fixed (370.67px)px;
+    height: Fixed (404px)px;
+    top: 1958px;
+    left: -2px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+     color: #FFFFFF;  
+     border: 1px solid #F2F2F2 
+}
+.rhine-img{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+}
+.rhine-location-container{
+    width: Fill (338.67px)px;
+    height: Hug (76px)px;
+    padding: 0px 4px 0px 4px;
+    gap: 8px;
+    opacity: 0px;
+}
+.rhine-location-text{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #262626;
+}
+.sunter-container{
+    width: Fixed (370.67px)px;
+    height: Fixed (404px)px;
+    top: 2376px;
+    left: 1px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    border: 1px solid #F2F2F2; 
+}
+.sunter-img{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+}
+.sunter-location-container{
+    width: Fill (338.67px)px;
+height: Hug (76px)px;
+padding: 0px 4px 0px 4px;
+gap: 8px;
+opacity: 0px;
+
+}
+.sunter-location-text{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+ color: #262626;  
+} 
+.negeri-container{
+    width: Fixed (370.67px)px;
+height: Fixed (404px)px;
+top: 2794px;
+left: 1px;
+padding: 16px 16px 36px 16px;
+gap: 28px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #FFFFFF;
+border: 1px solid #F2F2F2;
+}
+.negeri-img{
+    width: 338.67px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+      
+}   
+.negeri-location-container{
+    width: Fill (338.67px)px;
+    height: Hug (76px)px;
+    padding: 0px 4px 0px 4px;
+    gap: 8px;
+    opacity: 0px;
+}
+.negeri-location-text{
+    width: 330.67px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #262626;
+}
+/* End of destinations */
+.qaulity-container{
+    width: Fixed (335px)px;
+    height: Hug (1,096px)px;
+    top: 3263px;
+    left: 17px;
+    gap: 28px;
+    opacity: 0px;
+    
+}
+.choose-us{
+    width: Fill (455px)px;
+    height: Hug (260px)px;
+    gap: 12px;
+    opacity: 0px;
+    margin-right: 20px;
+    
+}
+.choose-header{
+    width: 335px;
+height: 104px;
+gap: 0px;
+border: 0.2px 0px 0px 0px;
+opacity: 0px;
+font-family: Gilda Display;
+font-size: 40px;
+font-weight: 400;
+line-height: 52px;
+text-align: center;
+color: #262626;
+border: 0.2px solid #262626;
+margin-right: 40px;
+
+}
+.choose-paragraph{
+    width: 335px;
+    height: 144px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color:#595959 ;  
+    
+}
+.listtop{
+    width: 455px;
+    height: 4px;
+    gap: 0px;
+    opacity: 0px;
+    background: #25A59E;
+}
+.guide-card{
+    width: Fill (335px)px;
+    height: Hug (257px)px;
     padding: 28px 20px 32px 20px;
     gap: 40px;
     opacity: 0px;
-    background: #25A59E;
-   
-    
+    color: #FFFFFF;  
 }
-.drop-shadow{
-    box-shadow: 10px 26px 150px 0px #4343641A;
-  
+.header-paragraph{
+    width: Fill (295px)px;
+    height: Hug (134px)px;
+    gap: 8px;
+    opacity: 0px;
 }
-.always-heading{
+.guide-header{
     width: 295px;
     height: 80px;
     gap: 0px;
     border: 0.4px 0px 0px 0px;
     opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+     color: #262626;
+      
+}
+.guide-paragraph{
+    width: 295px;
+height: 46px;
+gap: 0px;
+opacity: 0px;
+font-family: Urbanist;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color:#737373 ;
+}
+.action{
+    width: Hug (112px)px;
+height: Hug (23px)px;
+gap: 12px;
+opacity: 0px;
+display: flex;
+margin-left: 300px;
+}
+.more{
+    width: 84px;
+    height: 23px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+  color: #25A59E; 
+  display: inline-block;
+  vertical-align: middle;
+}
+.img-arrow{
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+     display: inline-block; 
+     vertical-align: middle;
+}
+.special-tickets{
+    width: Fill (335px)px;
+    height: Hug (254px)px;
+    padding: 28px 20px 32px 20px;
+    gap: 40px;
+    opacity: 0px;
+    background: #25A59E;
+    margin-right: 20px;
+}
+.special-ticket-h-p{
+    width: Fill (295px)px;
+    height: Hug (136px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.special-tickets-header{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    opacity: 0px;
+font-family: Gilda Display;
 font-size: 28px;
 font-weight: 400;
 line-height: 40px;
 text-align: left;
+color:#FFFFFF;
+border: 0.4px solid #FFFFFF
+}
+.ticket-paragraph{
+    width: 295px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     color: #FFFFFF;
+}
+.details{
+    width: 84px;
+    height: 18px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+font-size: 15px;
+font-weight: 400;
+line-height: 17.66px;
+text-align: left;
+color: #FFFFFF;
+display: inline;
+vertical-align: middle;
+}
+.action-tickets{
+    width: Hug (112px)px;
+height: Hug (18px)px;
+gap: 12px;
+opacity: 0px;
+color: #FFFFFF;
+margin-left: 300;
+}
+.image-arrow{
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color:#FFFFFF;
+display: inline-block;
+    vertical-align: middle;
+}
+.support{
+    width: Fill (335px)px;
+    height: Hug (257px)px;
+    padding: 28px 20px 32px 20px;
+    gap: 40px;
+    opacity: 0px;
+    color: #FFFFFF;
+}
+.support-h-p{
+    width: Fill (295px)px;
+    height: Hug (134px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.support-header{
+    width: 295px;
+    height: 80px;
+    gap: 0px;
+    border: 0.4px 0px 0px 0px;
+    opacity: 0px;
+font-family: Gilda Display;
+font-size: 28px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+color: #262626;   
+}
+.support-paragraph{
+    width: 295px;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color:#737373 ;
+}
+.travel-trip{
+    width: Fixed (335px)px;
+    height: Hug (487px)px;
+    top: 4427px;
+    left: 20px;
+    gap: 28px;
+    opacity: 0px;
+}
+.trip-section{
+    width: Fill (335px)px;
+    height: Hug (212px)px;
+    gap: 12px;
+    opacity: 0px;
+}
+.trip-header{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+    border: 0.2px solid #262626  
+}
+.travel{
+    color: #25A59E;
+}
+.shape-img{
+    width: 276.03px;
+    height: 121.72px;
+    top:0 px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0.5px;
+    color:#25A59E;
+    z-index: 0;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 35px;
+}
+.pic-img{
+    width: 335.11px;
+    height: 247px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    z-index: 1;
+}
+.video{
+    width: Hug (375px)px;
+    height: Hug (400px)px;
+    top: 4955px;
+    gap: 24px;
+    opacity: 0px;
+}
+.watch{
+    width: 335px;
+    height: 156px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+font-family: Gilda Display;
+font-size: 30px;
+font-weight: 350px;
+line-height: 32px;
+text-align: center;
+ color:#262626 ; 
+ margin-top: 30px;
+}
+.vid{
+    width: 375px;
+    height: 220px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 90px; 
+}
+.footer{
+    width: Fixed (375px)px;
+height: Hug (553px)px;
+top: 5355px;
+padding: 40px 0px 40px 0px;
+gap: 42px;
+opacity: 0px;
 color: #FFFFFF;
 }
+.get-click{
+    width: Fill (375px)px;
+    height: Hug (174px)px;
+    padding: 0px 20px 0px 20px;
+    gap: 16px;
+    opacity: 0px;
+}
+.offer{
+    width: 335px;
+    height: 104px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 40px;
+    font-weight: 100px;
+    line-height: 38px;
+    text-align: left;
+    color: #262626; 
+    margin-top: -170px;
+}
+.button{
+    width: Hug (147px)px;
+    height: Hug (54px)px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    opacity: 0px;
+    color: #25A59E;
+    margin-left: -30px;
+}
+.divider{
+    width: 455px;
+height: 0px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #D9D9D9
+}
+.travel-footer{
+    width: Fill (375px)px;
+    height: Hug (149px)px;
+    padding: 0px 20px 0px 20px;
+    gap: 28px;
+    opacity: 0px;
+     
+}
+.footer-header-paragraph{
+    width: Fill (335px)px;
+    height: Hug (79px)px;
+    gap: 12px;
+    opacity: 0px;
+margin-top: 20px;
+     
+}
+.travel-footer{
+    width: 52px;
+    height: 19px;
+    gap: 0px;
+    border: 0.7px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.83px;
+letter-spacing: 0.1em;
+text-align: left;
+ color: #25A59E;
+ margin-bottom: 10px;
+
+}
+.footer-paragraph{
+    width: 335px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+ color:#595959 ;  
+ margin-bottom: 20px;
+}
+.social-media{
+    width: Hug (144px)px;
+height: Fixed (42px)px;
+gap: 12px;
+opacity: 0px;
+justify-content: space-between;
+    opacity: 0px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.social-icons-insta{
+    width: 21.33px;
+    height: 21.33px;
+    top: 9.33px;
+    left: 9.33px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.social-icons-twitter{
+    width: 19.36px;
+height: 16px;
+top: 12px;
+left: 10px;
+gap: 0px;
+opacity: 0px;
+margin: 0 10px;
+vertical-align: middle;
+margin-top: 13px;
+}
+.social-icons-utube{
+    width: 21.33px;
+    height: 15.33px;
+    top: 12.67px;
+    left: 9.33px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0,10px;
+    vertical-align: middle;
+      margin-top: 13px;
+      
+}
+.footer-menu{
+    width: Fill (375px)px;
+    height: Hug (24px)px;
+    padding: 0px 20px 0px 20px;
+    gap: 20px;
+    opacity: 0px;
+    text-align: center;
+    display: flex;
+    
+}
+ .home{
+    width: 43px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+ color:#595959 ;
+ display: inline-block;
+ text-decoration: none;
+ }   
+ .destination-footer{
+    width: 87px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #595959;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    
+ }
+ .guide-footer{
+    width: 43px;
+    height: 24px;
+    gap: 0px;
+    margin-right: 10px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+ color: #595959;
+ text-decoration: none;
+ 
+ }
+.contact{
+    width: 79px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #595959; 
+    text-decoration: none;
+}
+
+
+
