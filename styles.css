@@ -356,6 +356,9 @@ opacity: 0px;
 color: #FFFFFF;
 border: 1px solid #F2F2F2;
 }
+.rotate-image{
+  transform: rotate(180deg);  
+}
 .negeri-img{
     width: 338.67px;
     height: 248px;
