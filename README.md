@@ -32,3 +32,6 @@ Navigate to the project directory:
 cd Travel-website
 ## Screenshoot
 
+## License
+
+
