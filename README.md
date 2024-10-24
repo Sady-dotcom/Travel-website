@@ -31,4 +31,4 @@ git clone https://github.com/sady-dotcom/Travel-website.git
 Navigate to the project directory:
 cd Travel-website
 ## Screenshoot
-Travel-website mirrorlake image https://images/Imagemount.png"
+
