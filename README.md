@@ -28,3 +28,6 @@ https://sady-dotcom.github.io/Travel-website/
 *CSS
 ## Setup-and-installation
 git clone https://github.com/sady-dotcom/Travel-website.git
+Navigate to the project directory:
+cd Travel-website
+## Screenshoot
