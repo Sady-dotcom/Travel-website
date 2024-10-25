@@ -43,16 +43,19 @@ opacity: 0px;
 font-family: Gilda Display;
 font-size: 16px;
 font-weight: 500px;
-line-height: 18.83px;
+line-height: 20.83px;
 letter-spacing: 0.1em;
-text-align: left;
+
 color: #25A59E;
+margin-left: 20px;
 }
 .logo-menu{
     width: 24px;
     height: 24px;
-    gap: 0px;
+    gap: 50px;
     opacity: 0px;
+    margin-left: 70px;
+
 }
 .travel-header{
     width: 327px;
@@ -62,9 +65,10 @@ color: #25A59E;
     font-family: Gilda Display;
     font-size: 32px;
     font-weight: 400;
-    line-height: 61.2px;
+    line-height: 70.2px;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 100px;
+    margin-left: 50px;
     
      
 }
@@ -85,25 +89,30 @@ opacity: 0px;
   top: 0;
   left: 0;
   margin-top: 170px;
-  margin-left: 50px;  
+  margin-left: 30px;  
 }
 .ellipse{
     position: absolute;
     top: 319px;
     left: 0;
-    margin-left: 50px;
+    margin-left: 65px;
     width: 400px;
     height: 315px;
+    margin-top: 0px;
+    border-radius: 50% 50% 5;
+    
 }
 .hero{
     width: 432.6px;
-    height: 228px;
+    height: 300px;
     top: 24px;
     left: 16.8px;
+    margin-left: 35;
     gap: 0px;
     opacity: 0px;
      position: absolute;
      top: 287px;
+    
 }
 .destination{
     width: Fixed (375px)px;
@@ -415,7 +424,7 @@ font-weight: 400;
 line-height: 52px;
 text-align: center;
 color: #262626;
-border: 0.2px solid #262626;
+
 margin-right: 40px;
 
 }
@@ -537,7 +546,7 @@ font-weight: 400;
 line-height: 40px;
 text-align: left;
 color:#FFFFFF;
-border: 0.4px solid #FFFFFF
+
 }
 .ticket-paragraph{
     width: 295px;
@@ -647,7 +656,7 @@ color:#737373 ;
     font-weight: 400;
     line-height: 52px;
     text-align: left;
-    border: 0.2px solid #262626  
+    
 }
 .travel{
     color: #25A59E;
