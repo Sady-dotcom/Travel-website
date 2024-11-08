@@ -1,0 +1,151 @@
+@media (min-width:768px) {
+    header {
+    width:1440px ;
+    height: 1070px;
+    gap: 0px;
+    opacity:0px;}
+    }
+    .nav{
+        width: Fixed (1,200px)px;
+        height: Hug (33px)px;
+        top: 44px;
+        left: 120px;
+        gap: 0px;
+        justify-content: space-between;
+        opacity: 0px;
+    }
+    .logo{
+        width: 91px;
+        height: 33px;
+        gap: 0px;
+        border: 0.7px 0px 0px 0px;
+        opacity: 0px;
+        font-family: Gilda Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.96px;
+    letter-spacing: 0.1em;
+    text-align: left;
+        color: #25A59E;
+    }
+    .logo-menu{
+        width: Hug (28px)px;
+        height: Hug (23px)px;
+        gap: 7px;
+        opacity: 0px;
+        margin-left: 1300;
+    }
+    .travel-header{
+        width: 1340px;
+    height: 340px;
+    top: 100px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 150px;
+    text-align: center;
+    }
+    @media(min-width:768px){
+    .ellipse{
+        width: 1200px;
+        height: 1200px;
+        top: 630px;
+        left: 243px;
+        gap: 0px;
+        opacity: 0px;
+         color: #EE8F39;
+         position: absolute;
+         margin-left: 355px;
+         margin-top: 10px;
+    }
+    }
+    @media(min-width:768px){}
+    .blurry{
+        width: 1500px;
+    height: 682px;
+    top: 611px;
+    left: 379px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #25A59E;
+    position: absolute;
+    margin-bottom: 900;
+    margin-left: 200;
+    margin-top:-120;
+    }
+    .hero{
+        width: 1072px;
+        height: 655px;
+        margin-left: 550px;
+        margin-top: 322px;
+        position: absolute;
+        gap: 0px;
+        opacity: 0px;
+           
+    }
+    /* End of header */
+    @media (min-width:768px){
+        .destination{
+            width: Fixed (1,440px)px;
+        height: Hug (1,270px)px;
+        top: 1070px;
+        padding: 100px 120px 100px 120px;
+        gap: 60px;
+        opacity: 0px;
+        background: #FFFFFF;
+        }
+        }
+        .mirror-lake-container{
+            width: 1200px;
+            height: 162px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        .destination-header{
+            width: 1162px;
+            height: 84px;
+            gap: 0px;
+            border: 0.2px 0px 0px 0px;
+            opacity: 0px;
+            font-family: Gilda Display;
+            font-size: 70px;
+            font-weight: 400;
+            line-height: 80px;
+            text-align: center;
+            color: #262626;
+            margin-top: 300px;
+            margin-left: 100px;
+        }
+        .destination-paragraph{
+            width: 599px;
+        height: 49px;
+        top: 113px;
+        left: 315px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Urbanist;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        font-family: Urbanist;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        margin-left: 380px;
+        }
+        @media (min-width:1025px){
+        .list-grid{
+    grid-template-columns: repeat();
+        }
+        
+    
+        
+    
+    
+    
