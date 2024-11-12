@@ -1,5 +1,4 @@
- HEAD
-
+<<<<<<< HEAD
 
 
 # Travel-website
@@ -32,9 +31,7 @@ https://sady-dotcom.github.io/Travel-website/
 *CSS
 ## Setup-and-installation
 git clone https://github.com/sady-dotcom/Travel-website.git
-HEAD
-f4d739a3412fc9b5415b6d912b16054542a55cfd
-
+<<<<<<<<< Temporary merge branch 1
 Navigate to the project directory:
 cd Travel-website
 ## Screenshoot
@@ -42,4 +39,6 @@ cd Travel-website
 ## License
 
 
->>>>>>> df663acfc269f91537afebef4310efe80b5dadf0
+=========
+>>>>>>> f4d739a3412fc9b5415b6d912b16054542a55cfd
+>>>>>>>>> Temporary merge branch 2
