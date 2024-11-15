@@ -48,7 +48,6 @@ Temporary merge branch 1
 Navigate to the project directory:
 cd Travel-website
 <h5>Screenshoot</h5>
-<img scr="images/section.png">
 <h5>License</h5>
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 <h5>Author</h5>
