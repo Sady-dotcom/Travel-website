@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     margin: 0;
     font-family: 'Gilda Display', 'Urbanist';
@@ -23,7 +22,6 @@ body{
     top: -3px;
     gap: 0px;
     opacity: 0px;
-     
 }
 .nav{
     width: Fixed (375px)px;
@@ -54,7 +52,6 @@ margin-left: 20px;
     gap: 50px;
     opacity: 0px;
     margin-left: 170px;
-
 }
 .travel-header{
     width: 327px;
@@ -68,8 +65,6 @@ margin-left: 20px;
     text-align: center;
     margin-top: 100px;
     margin-left: 50px;
-    
-     
 }
 .travel-h{
     color: #25A59E;
@@ -81,7 +76,6 @@ top: 150px;
 padding: 0px 24px 0px 24px;
 gap: 0px;
 opacity: 0px;
-
 }
 .blurry{
   position: absolute;
@@ -94,7 +88,6 @@ opacity: 0px;
     position: absolute;
     top: 319px;
     left: 0;
-    
     width: 400px;
     height: 315px;
     margin-top: 0px;
@@ -110,7 +103,6 @@ opacity: 0px;
     opacity: 0px;
      position: absolute;
      top: 287px;
-    
 }
 .destination{
     width: Fixed (375px)px;
@@ -119,14 +111,12 @@ opacity: 0px;
     padding: 80px 20px 80px 20px;
     gap: 100px;
     opacity: 0px;
-     
 }
 .mirror-lake-container{
-    width: Fill (335px)px;
+width: Fill (335px)px;
 height: Hug (164px)px;
 gap: 20px;
 opacity: 0px;
-
 }
 .destination-header{
     width: 335px;
@@ -140,7 +130,6 @@ font-weight: 400px;
 line-height: 40px;
 text-align: left;
 color:#262626 ;
-
 }
 .destination-paragraph{
     width: 335px;
@@ -152,9 +141,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 18px;
 text-align: left;
- 
-}
-.img-lake-container{
+ }
+.mirror-card{
     width: Fill (335px)px;
     height: Fixed (378px)px;
     padding: 12px 12px 24px 12px;
@@ -162,9 +150,9 @@ text-align: left;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     color: #FFFFFF;  
-    border: 1px solid #F2F2F2
+    border: 1px solid #F2F2F2;
 }
-.img-lake{
+.mirror-img{
     width: 311px;
     height: 262px;
     gap: 0px;
@@ -200,7 +188,6 @@ text-align: left;
     opacity: 0px;
     display: inline-block;
     vertical-align: middle;
-    
 }
 .location-text{
     font-family: Urbanist;
@@ -229,7 +216,6 @@ text-align: left;
     height: 248px;
     gap: 0px;
     opacity: 0px;
-       
 }
 .ballon-location-container{
     width: Fill (338.67px)px;
@@ -237,7 +223,6 @@ text-align: left;
     padding: 0px 4px 0px 4px;
     gap: 8px;
     opacity: 0px;
-     
 }
 .oeschinen-container{
     width: Fixed (370.67px)px;
@@ -262,7 +247,6 @@ text-align: left;
     padding: 0px 4px 0px 4px;
     gap: 8px;
     opacity: 0px;
-     
 }
 .oeschinen-location-text{
     width: 330.67px;
@@ -337,7 +321,6 @@ height: Hug (76px)px;
 padding: 0px 4px 0px 4px;
 gap: 8px;
 opacity: 0px;
-
 }
 .sunter-location-text{
     width: 330.67px;
@@ -371,7 +354,6 @@ border: 1px solid #F2F2F2;
     height: 248px;
     gap: 0px;
     opacity: 0px;
-      
 }   
 .negeri-location-container{
     width: Fill (338.67px)px;
@@ -400,7 +382,6 @@ color: #262626;
     left: 17px;
     gap: 28px;
     opacity: 0px;
-    
 }
 .choose-us{
     width: Fill (455px)px;
@@ -408,10 +389,9 @@ color: #262626;
     gap: 12px;
     opacity: 0px;
     margin-right: 20px;
-    
 }
 .choose-header{
-    width: 335px;
+width: 335px;
 height: 104px;
 gap: 0px;
 border: 0.2px 0px 0px 0px;
@@ -435,7 +415,6 @@ margin-right: 40px;
     line-height: 24px;
     text-align: center;
     color:#595959 ;  
-    
 }
 .listtop{
     width: 455px;
@@ -471,28 +450,27 @@ margin-right: 40px;
     font-weight: 400;
     line-height: 40px;
     text-align: left;
-     color: #262626;
-      
+    color: #262626;
 }
 .guide-paragraph{
     width: 295px;
-height: 46px;
-gap: 0px;
-opacity: 0px;
-font-family: Urbanist;
-font-size: 15px;
-font-weight: 400;
-line-height: 23px;
-text-align: left;
-color:#737373 ;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color:#737373 ;
 }
 .action{
     width: Hug (112px)px;
-height: Hug (23px)px;
-gap: 12px;
-opacity: 0px;
-display: flex;
-margin-left: 300px;
+    height: Hug (23px)px;
+    gap: 12px;
+    opacity: 0px;
+    display: flex;
+    margin-left: 300px;
 }
 .more{
     width: 84px;
@@ -501,13 +479,13 @@ margin-left: 300px;
     border: 0.2px 0px 0px 0px;
     opacity: 0px;
     font-family: Gilda Display;
-font-size: 15px;
-font-weight: 400;
-line-height: 15px;
-text-align: left;
-  color: #25A59E; 
-  display: inline-block;
-  vertical-align: middle;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #25A59E; 
+    display: inline-block;
+    vertical-align: middle;
 }
 .img-arrow{
     width: 16px;
@@ -539,12 +517,12 @@ text-align: left;
     gap: 0px;
     border: 0.4px 0px 0px 0px;
     opacity: 0px;
-font-family: Gilda Display;
-font-size: 28px;
-font-weight: 400;
-line-height: 40px;
-text-align: left;
-color:#FFFFFF;
+    font-family: Gilda Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color:#FFFFFF;
 
 }
 .ticket-paragraph{
@@ -557,7 +535,7 @@ color:#FFFFFF;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-     color: #FFFFFF;
+    color: #FFFFFF;
 }
 .details{
     width: 84px;
@@ -566,21 +544,21 @@ color:#FFFFFF;
     border: 0.2px 0px 0px 0px;
     opacity: 0px;
     font-family: Gilda Display;
-font-size: 15px;
-font-weight: 400;
-line-height: 17.66px;
-text-align: left;
-color: #FFFFFF;
-display: inline;
-vertical-align: middle;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.66px;
+    text-align: left;
+    color: #FFFFFF;
+    display: inline;
+    vertical-align: middle;
 }
 .action-tickets{
     width: Hug (112px)px;
-height: Hug (18px)px;
-gap: 12px;
-opacity: 0px;
-color: #FFFFFF;
-margin-left: 300;
+    height: Hug (18px)px;
+    gap: 12px;
+    opacity: 0px;
+    color: #FFFFFF;
+    margin-left: 300;
 }
 .image-arrow{
     width: 16px;
@@ -588,7 +566,7 @@ margin-left: 300;
     gap: 0px;
     opacity: 0px;
     color:#FFFFFF;
-display: inline-block;
+    display: inline-block;
     vertical-align: middle;
 }
 .support{
@@ -612,12 +590,12 @@ display: inline-block;
     gap: 0px;
     border: 0.4px 0px 0px 0px;
     opacity: 0px;
-font-family: Gilda Display;
-font-size: 28px;
-font-weight: 400;
-line-height: 40px;
-text-align: left;
-color: #262626;   
+    font-family: Gilda Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #262626;   
 }
 .support-paragraph{
     width: 295px;
@@ -625,11 +603,11 @@ color: #262626;
     gap: 0px;
     opacity: 0px;
     font-family: Urbanist;
-font-size: 15px;
-font-weight: 400;
-line-height: 23px;
-text-align: left;
-color:#737373 ;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color:#737373 ;
 }
 .travel-trip{
     width: Fixed (335px)px;
@@ -656,7 +634,6 @@ color:#737373 ;
     font-weight: 400;
     line-height: 52px;
     text-align: left;
-    
 }
 .travel{
     color: #25A59E;
@@ -695,32 +672,49 @@ color:#737373 ;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
     opacity: 0px;
-font-family: Gilda Display;
-font-size: 30px;
-font-weight: 350px;
-line-height: 32px;
-text-align: center;
- color:#262626 ; 
- margin-top: 30px;
+    font-family: Gilda Display;
+    font-size: 30px;
+    font-weight: 350px;
+    line-height: 32px;
+    text-align: center;
+    color:#262626 ; 
+    margin-top: 30px;
 }
 .vid{
-    width: 375px;
+    width: 300px;
     height: 220px;
     gap: 0px;
     opacity: 0px;
     margin-bottom: 90px; 
 }
-.play{
+.play-button{
+    position: absolute;
+    background-color: #096d68;
+    cursor: pointer;
+    border: solid;
+    color: #FFFFFF;
+}
+.play-icon{
+    width: 28px;
+    height: 28px;
+    top: 96px;
+    left: 174px;
+    padding: 2.33px;
+    gap: 0px;
+    opacity: 0px;
+}
+.vid{
 margin-bottom: 60;
 }
 .footer{
     width: Fixed (375px)px;
-height: Hug (553px)px;
-top: 5355px;
-padding: 40px 0px 40px 0px;
-gap: 42px;
-opacity: 0px;
-color: #FFFFFF;
+    height: Hug (553px)px;
+    top: 5355px;
+    padding: 40px 0px 40px 0px;
+    gap: 42px;
+    opacity: 0px;
+    color: #FFFFFF;
+    margin-top: -700px;
 }
 .get-click{
     width: Fill (375px)px;
@@ -754,11 +748,11 @@ color: #FFFFFF;
 }
 .divider{
     width: 100%;
-height: 0px;
-gap: 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 1px solid #D9D9D9
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #D9D9D9
 }
 .travel-footer{
     width: Fill (375px)px;
@@ -766,15 +760,13 @@ border: 1px solid #D9D9D9
     padding: 0px 20px 0px 20px;
     gap: 28px;
     opacity: 0px;
-     
 }
 .footer-header-paragraph{
     width: Fill (335px)px;
     height: Hug (79px)px;
     gap: 12px;
     opacity: 0px;
-margin-top: 20px;
-     
+    margin-top: 20px;
 }
 .travel-footer{
     width: 52px;
@@ -783,34 +775,33 @@ margin-top: 20px;
     border: 0.7px 0px 0px 0px;
     opacity: 0px;
     font-family: Gilda Display;
-font-size: 16px;
-font-weight: 400;
-line-height: 18.83px;
-letter-spacing: 0.1em;
-text-align: left;
- color: #25A59E;
- margin-bottom: 10px;
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.83px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #25A59E;
+    margin-bottom: 10px;
 }
 .footer-paragraph{
     width: 335px;
     height: 48px;
     gap: 0px;
     opacity: 0px;
-font-family: Urbanist;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
- color:#595959 ;  
- margin-bottom: 20px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color:#595959 ;  
+    margin-bottom: 20px;
 }
 .social-media{
     width: Hug (144px)px;
-height: Fixed (42px)px;
-gap: 12px;
-opacity: 0px;
-justify-content: space-between;
+    height: Fixed (42px)px;
+    gap: 12px;
+    opacity: 0px;
+    justify-content: space-between;
     opacity: 0px;
     text-align: center;
     display: flex;
@@ -828,14 +819,14 @@ justify-content: space-between;
 }
 .social-icons-twitter{
     width: 19.36px;
-height: 16px;
-top: 12px;
-left: 10px;
-gap: 0px;
-opacity: 0px;
-margin: 0 10px;
-vertical-align: middle;
-margin-top: 13px;
+    height: 16px;
+    top: 12px;
+    left: 10px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 10px;
+    vertical-align: middle;
+    margin-top: 13px;
 }
 .social-icons-utube{
     width: 21.33px;
@@ -846,8 +837,7 @@ margin-top: 13px;
     opacity: 0px;
     margin: 0,10px;
     vertical-align: middle;
-      margin-top: 13px;
-      
+    margin-top: 13px;
 }
 .footer-menu{
     width: Fill (375px)px;
@@ -857,21 +847,20 @@ margin-top: 13px;
     opacity: 0px;
     text-align: center;
     display: flex;
-    
 }
  .home{
     width: 43px;
     height: 24px;
     gap: 0px;
     opacity: 0px;
-font-family: Urbanist;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
- color:#595959 ;
- display: inline-block;
- text-decoration: none;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color:#595959 ;
+    display: inline-block;
+    text-decoration: none;
  }   
  .destination-footer{
     width: 87px;
@@ -887,23 +876,21 @@ text-align: left;
     display: inline-block;
     text-decoration: none;
     margin-right: 10px;
-    
- }
+}
  .guide-footer{
     width: 43px;
     height: 24px;
     gap: 0px;
     margin-right: 10px;
     opacity: 0px;
-font-family: Urbanist;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
- color: #595959;
- text-decoration: none;
- 
- }
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #595959;
+    text-decoration: none;
+}
 .contact{
     width: 79px;
     height: 24px;
@@ -917,6 +904,498 @@ text-align: left;
     color: #595959; 
     text-decoration: none;
 }
+/*Desktop view media query*/
 
+@media (min-width:1025px) {
+    header {
+    width:1440px ;
+    height: 1070px;
+    gap: 0px;
+    opacity:0px;}
+}
+.nav{
+    width: Fixed (1,200px)px;
+    height: Hug (33px)px;
+    top: 44px;
+    left: 120px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.logo{
+        width: 91px;
+        height: 33px;
+        gap: 0px;
+        border: 0.7px 0px 0px 0px;
+        opacity: 0px;
+        font-family: Gilda Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.96px;
+    letter-spacing: 0.1em;
+    text-align: left;
+        color: #25A59E;
+    }
+    .logo-menu{
+        width: Hug (28px)px;
+        height: Hug (23px)px;
+        gap: 7px;
+        opacity: 0px;
+        margin-left: 1300;
+    }
+    .travel-header{
+        width: 1340px;
+    height: 340px;
+    top: 100px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 150px;
+    text-align: center;
+    }
+    @media(min-width:768px){
+    .ellipse{
+        width: 1200px;
+        height: 1200px;
+        top: 630px;
+        left: 243px;
+        gap: 0px;
+        opacity: 0px;
+         color: #EE8F39;
+         position: absolute;
+         margin-left: 355px;
+         margin-top: 10px;
+    }
+    }
+    @media(min-width:768px){}
+    .blurry{
+        width: 1500px;
+    height: 682px;
+    top: 611px;
+    left: 379px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #25A59E;
+    position: absolute;
+    margin-bottom: 900;
+    margin-left: 200;
+    margin-top:-120;
+    }
+    .hero{
+        width: 1072px;
+        height: 655px;
+        margin-left: 550px;
+        margin-top: 322px;
+        position: absolute;
+        gap: 0px;
+        opacity: 0px;
+           
+    }
+    /* End of header */
+    @media (min-width:1025px){
+        .destination{
+            width: Fixed (1,440px)px;
+        height: Hug (1,270px)px;
+        top: 1070px;
+        padding: 100px 120px 100px 120px;
+        gap: 60px;
+        opacity: 0px;
+        background: #FFFFFF;
+        }
+        }
+        .content{
+            width: 1200px;
+            height: 162px;
+            gap: 0px;
+            opacity: 0px;
+}
+.destination-header{
+    width: 1162px;
+    height: 84px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    color: #262626;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.destination-paragraph{
+    width: 599px;
+height: 49px;
+top: 113px;
+left: 315px;
+gap: 0px;
+opacity: 0px;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+font-family: Urbanist;
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+margin-left: 380px;
+}
+.list-grid{
+    width: Fill (1,200px)px;
+    height: Hug (848px)px;
+    gap: 40px;
+    opacity: 0px;
+    display:flex ;
+    flex-direction: column;
+}
+.mirror-card{
+    width: Fill (370.67px)px;
+    height: Fixed (404px)px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    column-gap: 40px;
+}
+.ballon-container{
+    width: Fixed (370.67px)px;
+height: Fixed (404px)px;
+padding: 16px 16px 36px 16px;
+gap: 28px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+.rhine-container{
+    width: Fixed (370.67px)px;
+    height: Fixed (404px)px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.qaulity-container{
+    width: Fixed (1,440px)px;
+    height: Hug (864px)px;
+    top: 2340px;
+    padding: 100px 120px 100px 120px;
+    gap: 60px;
+    opacity: 0px;
+}
+.choose-us{
+    width: Hug (879px)px;
+    height: Hug (204px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+.choose-header{
+    width: 670px;
+    height: 84px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+font-family: Gilda Display;
+font-size: 72px;
+font-weight: 400;
+line-height: 84px;
+text-align: center;
+margin-bottom:10px;
+margin-left: 390px;
+}      
+.choose-paragraph{
+    width: 879px;
+height: 96px;
+gap: 0px;
+opacity: 0px;
+margin-bottom: 0px;
+    text-align: center;
+    margin-left: 300;
+}        
+ .listtop{
+    width: 1500px;
+    height: 4px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: -20;
+}
+.wrapper-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    column-gap: 20px;
+}
+.guide-card{
+    width: Fill (381.33px);
+    height: Hug (400px);
+    padding: 40px 32px 48px 32px;
+    gap: 80px;
+    opacity: 0px;
+    color: #FFFFFF;  
+    border: 1px solid #F2F2F2;
+} 
+.support{
+    width: Fill (381.33px)px;
+    height: Hug (400px)px;
+    padding: 40px 32px 48px 32px;
+    gap: 80px;
+    opacity: 0px;
+    color: #FFFFFF;
+    border: 1px solid #F2F2F2;  
+}  
+ .travel-trip{
+    width: Fixed (1,440px)px;
+height: Hug (685px)px;
+top: 3204px;
+padding: 100px 120px 100px 120px;
+gap: 26px;
+opacity: 0px;
+margin-bottom:100;
+}       
+ .shape-img{
+   margin-left: 1100px; 
+   margin-top: 70px;
+}
+.pic-img{
+    margin-left: 600;
+    width: 640px;
+height: 485px;
+gap: 0px;
+opacity: 0px;
+margin-top: -55;
+margin-left: 300;
 
+} 
+.trip-section{
+    width: 640px;
+    height: 485px;
+    gap: 0px;
+    opacity: 0px;
+}
+.video{
+    width: Fixed (1,440px)px;
+    height: Hug (1061px)px;
+    top: 3889px;
+    padding: 100px 0px 100px 0px;
+    gap: 48px;
+    opacity: 0px;
+}
+ .watch{
+    width: 680px;
+    height: 168px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    color: #262626;
+    margin-top:-500px;
+    text-align: center;
+    margin-left: 380px; 
+ }   
+ .vid{
+   width: 1400px;
+height:  600px;
+gap: 10px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: grid;
+place-items:center ;
 
+}
+.footer{
+    width: Fixed (1,440px)px;
+    height: Hug (567px)px;
+    top: 4905px;
+    padding: 48px 0px 100px 0px;
+    gap: 80px;
+    opacity: 0px;
+    color: #FFFFFF;
+}   
+.get-click{
+    width: Fill (1,440px)px;
+    height: Hug (132px)px;
+    gap: 48px;
+    opacity: 0px;
+     display:flex;
+     align-items: center;
+     margin-top: 500;
+}
+.offer{
+    width: 743px;
+    height: 84px;
+    gap: 0px;
+    border: 0.2px 0px 0px 0px;
+    opacity: 0px;
+    flex: 1;
+    margin-left: 100;
+    margin-bottom: 400px;
+}
+.button{
+flex: 1;
+ margin-top: -520px;   
+display: flex;
+margin-left: 100;
+}
+.play-button{
+    width: 131px;
+    height: 131px;
+    gap: 0px;
+    opacity: 0.9px;
+    border: 4.13px solid;
+    border-image-source: linear-gradient(180.24deg, rgba(255, 255, 255, 0.8) 0.21%, rgba(255, 255, 255, 0.08) 99.79%);
+}
+.divider{
+    width: 1440px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-top:-400px;  
+}
+.travel-footer{
+    width: Fill (1,440px)px;
+    height: Hug (207px)px;
+    padding: 0px 120px 0px 120px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.group-footer{
+    width: Fixed (313px)px;
+    height: Hug (207px)px;
+    gap: 48px;
+    opacity: 0px;
+}
+.footer-header{
+    width: 91px;
+    height: 33px;
+    gap: 0px;
+    border: 0.7px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Gilda Display;
+font-size: 28px;
+font-weight: 400;
+line-height: 32.96px;
+letter-spacing: 0.1em;
+margin-left:-120px ;
+}
+.best-travel{
+    width: 313px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+.social-media{
+    width: Hug (184px)px;
+    height: Fixed (42px)px;
+    gap: 32px;
+    opacity: 0px;
+    flex: 1;
+    
+}
+.social-icons-insta{
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px 0px 0px 0px;
+    opacity: 0px;
+}
+.social-icons-twitter{
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px 0px 0px 0px;
+    opacity: 0px;
+}
+.social-icons-utube{
+    width: 40px;
+height: 40px;
+gap: 0px;
+border-radius: 100px 0px 0px 0px;
+opacity: 0px;
+}
+.footer-menu{
+    width: Hug (463px)px;
+    height: Hug (140px)px;
+    gap: 40px;
+    opacity: 0px;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.menu-group{
+    width: Hug (463px)px;
+    height: Hug (44px)px;
+    padding: 12px 0px 0px 0px;
+    gap: 60px;
+    opacity: 0px;
+    margin-left: 800px;
+    display: flex;
+    flex: 1;
+    margin-top: -120;
+}
+.home{
+    width: 48px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+}
+.destination-footer{
+    width: 98px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+}
+.guide-footer{
+    width: 48px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+}
+.contact{
+    width: 89px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+}

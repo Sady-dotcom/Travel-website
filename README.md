@@ -1,8 +1,10 @@
+ feature-1 HEAD
 # Travel-website
 <ul>Explore. Discover. Escape</ul>
 <ul>Table of contents</ul>
 
 - Travel website
+dev
 
   - [Table of Contents](#table-of-contents)
 
@@ -42,8 +44,7 @@ CSS
  </li>
 <h5>Setup-and-installation</h5>
 git clone https://github.com/sady-dotcom/Travel-website.git
-feature-1
- f4d739a3412fc9b5415b6d912b16054542a55cfd
+Temporary merge branch 1
 Navigate to the project directory:
 cd Travel-website
 <h5>Screenshoot</h5>
@@ -59,3 +60,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub:** https://github.com/Sady-dotcom
 
 
+feature-1
+f4d739a3412fc9b5415b6d912b16054542a55cfd
+ Temporary merge branch 2
+ dev
