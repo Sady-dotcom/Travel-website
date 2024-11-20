@@ -14,8 +14,7 @@
 }
 body{
     margin: 0;
-    font-family: 'Gilda Display', 'Urbanist';
-}
+    font-family: 'Gilda Display', 'Urbanist';}
 .header{
     width: 375px;
     height: 473px;
@@ -105,8 +104,8 @@ opacity: 0px;
      top: 287px;
 }
 .destination{
-    width: Fixed (375px)px;
-    height: Hug (730px)px;
+    width: 375px;
+    height: 730px;
     top: 457px;
     padding: 80px 20px 80px 20px;
     gap: 100px;
@@ -906,28 +905,39 @@ margin-bottom: 60;
 }
 /*Desktop view media query*/
 
-@media (min-width:1025px) {
-    header {
-    width:1440px ;
+@media (min-width:100%) {}
+.body{
+        margin:0;
+        width: 1400px;
+        padding: 0%;
+        overflow-x: hidden;
+}
+.container{
+    min-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header {
+   width:1200px ;
     height: 1070px;
     gap: 0px;
-    opacity:0px;}
+    opacity:1;
 }
 .nav{
-    width: Fixed (1,200px)px;
-    height: Hug (33px)px;
+    width:1200px;
+    height: 33px;
     top: 44px;
-    left: 120px;
-    gap: 0px;
+    left: 100px;
+    gap: 1px;
     justify-content: space-between;
-    opacity: 0px;
+    opacity: 1;
 }
 .logo{
         width: 91px;
         height: 33px;
         gap: 0px;
         border: 0.7px 0px 0px 0px;
-        opacity: 0px;
+        opacity: 1;
         font-family: Gilda Display;
     font-size: 28px;
     font-weight: 400;
@@ -937,42 +947,42 @@ margin-bottom: 60;
         color: #25A59E;
     }
     .logo-menu{
-        width: Hug (28px)px;
-        height: Hug (23px)px;
+        width: 28px;
+        height:23px;
         gap: 7px;
-        opacity: 0px;
-        margin-left: 1300;
+        opacity: 1;
+        margin-left: 800;
+    }
+    .img-container{
+
     }
     .travel-header{
-        width: 1340px;
-    height: 340px;
+        width: 1200px;
+    height: 100px;
     top: 100px;
     left: 50px;
-    gap: 0px;
-    opacity: 0px;
+    gap: 0;
+    opacity: 1;
     font-family: Gilda Display;
-    font-size: 120px;
-    font-weight: 300;
+    font-size: 100px;
+    font-weight: 100;
     line-height: 150px;
     text-align: center;
     }
-    @media(min-width:768px){
-    .ellipse{
+.ellipse{
         width: 1200px;
         height: 1200px;
         top: 630px;
         left: 243px;
         gap: 0px;
-        opacity: 0px;
+        opacity: 1;
          color: #EE8F39;
          position: absolute;
-         margin-left: 355px;
-         margin-top: 10px;
+         margin-left: 290px;
+         margin-top:10px;
     }
-    }
-    @media(min-width:768px){}
-    .blurry{
-        width: 1500px;
+.blurry{
+        width: 1200px;
     height: 682px;
     top: 611px;
     left: 379px;
@@ -982,39 +992,37 @@ margin-bottom: 60;
     color: #25A59E;
     position: absolute;
     margin-bottom: 900;
-    margin-left: 200;
+    margin-left: 130;
     margin-top:-120;
     }
     .hero{
-        width: 1072px;
+        width: 1200px;
         height: 655px;
-        margin-left: 550px;
+        margin-left: 500px;
         margin-top: 322px;
         position: absolute;
         gap: 0px;
-        opacity: 0px;
-           
-    }
+        opacity: 1;
+}
     /* End of header */
-    @media (min-width:1025px){
-        .destination{
-            width: Fixed (1,440px)px;
-        height: Hug (1,270px)px;
+.destination{
+        width:1200px;
+        height:1270px;
         top: 1070px;
         padding: 100px 120px 100px 120px;
         gap: 60px;
-        opacity: 0px;
+        opacity: 1;
         background: #FFFFFF;
-        }
-        }
-        .content{
-            width: 1200px;
-            height: 162px;
-            gap: 0px;
-            opacity: 0px;
+        margin-top: -240px;
+}
+.content{
+         width: 1200px;
+        height: 162px;
+        gap: 0px;
+        opacity: 1;
 }
 .destination-header{
-    width: 1162px;
+    width: 1200px;
     height: 84px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
@@ -1025,79 +1033,81 @@ margin-bottom: 60;
     line-height: 80px;
     text-align: center;
     color: #262626;
-    margin-top: 300px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: -90px;
+    
 }
 .destination-paragraph{
     width: 599px;
-height: 49px;
-top: 113px;
-left: 315px;
-gap: 0px;
-opacity: 0px;
-font-family: Urbanist;
-font-size: 24px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-font-family: Urbanist;
-font-size: 24px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-margin-left: 380px;
+    height: 49px;
+    top: 113px;
+    left: 315px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 200px;
 }
 .list-grid{
-    width: Fill (1,200px)px;
-    height: Hug (848px)px;
+    width: 1,200;
+    height: 4,00px;
     gap: 40px;
     opacity: 0px;
     display:flex ;
     flex-direction: column;
 }
 .mirror-card{
-    width: Fill (370.67px)px;
-    height: Fixed (404px)px;
+    width: 370.67px;
+    height:404px;
     padding: 16px 16px 36px 16px;
     gap: 28px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
+    opacity: 1;
 }
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     column-gap: 40px;
+    width: 100%;
 }
 .ballon-container{
-    width: Fixed (370.67px)px;
-height: Fixed (404px)px;
-padding: 16px 16px 36px 16px;
-gap: 28px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+    width:370.67px;
+    height: 404px;
+    padding: 16px 16px 36px 16px;
+    gap: 28px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 }
 .rhine-container{
-    width: Fixed (370.67px)px;
-    height: Fixed (404px)px;
+    width: 370.67px;
+    height: 404px;
     padding: 16px 16px 36px 16px;
     gap: 28px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
 }
 .qaulity-container{
-    width: Fixed (1,440px)px;
-    height: Hug (864px)px;
+    width:  1,200px;
+    height:  864px;
     top: 2340px;
-    padding: 100px 120px 100px 120px;
+    padding: 80px 100px 80px 100px;
     gap: 60px;
     opacity: 0px;
 }
 .choose-us{
-    width: Hug (879px)px;
-    height: Hug (204px)px;
+    width: 879px;
+    height: 204px;
     gap: 24px;
-    opacity: 0px;
+    opacity: 1;
 }
 .choose-header{
     width: 670px;
@@ -1105,76 +1115,116 @@ opacity: 0px;
     gap: 0px;
     border: 0.2px 0px 0px 0px;
     opacity: 0px;
-font-family: Gilda Display;
-font-size: 72px;
-font-weight: 400;
-line-height: 84px;
-text-align: center;
-margin-bottom:10px;
-margin-left: 390px;
+    font-family: Gilda Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom:10px;
+    margin-left: 390px;
 }      
 .choose-paragraph{
     width: 879px;
-height: 96px;
-gap: 0px;
-opacity: 0px;
-margin-bottom: 0px;
+    height: 96px;
+    gap: 0px;
+    opacity: 1;
+    margin-bottom: 0px;
     text-align: center;
     margin-left: 300;
 }        
- .listtop{
-    width: 1500px;
+.listtop{
+    width: 1200px;
     height: 4px;
     gap: 0px;
-    opacity: 0px;
-    margin-bottom: -20;
+    opacity: 1;
+    margin-bottom: -20px;
+    margin-left: 100px;
+ }
+.list-grid-quality{
+    width: 1400px;
+    height:400px;
+    gap: 28px;
+    opacity: 1;
+
 }
 .wrapper-card{
+    width:1200;
+    height: 100px;
+    opacity: 0px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     column-gap: 20px;
+    margin-left: 100px;
 }
+
 .guide-card{
-    width: Fill (381.33px);
-    height: Hug (400px);
+    width: 381.33px;
+    height: 200px;
     padding: 40px 32px 48px 32px;
     gap: 80px;
     opacity: 0px;
     color: #FFFFFF;  
     border: 1px solid #F2F2F2;
 } 
+.action{
+    width:148px;
+    height:24px;
+    gap: 12px;
+    opacity: 0px;
+    margin-left:200 ;
+}
+.special-tickets{
+    width:381.33px;
+    height:200px;
+    padding: 40px 32px 48px 32px;
+    gap: 80px;
+    opacity: 0px;
+}
+.details{
+    width:148px;
+    height: 24px;
+    gap: 12px;
+    opacity: 0px;
+    margin-left: -100px;
+}
+.image-arrow-ticket{
+    color: #FFFFFF;
+}
 .support{
-    width: Fill (381.33px)px;
-    height: Hug (400px)px;
+    width:381.33px;
+    height:200px;
     padding: 40px 32px 48px 32px;
     gap: 80px;
     opacity: 0px;
     color: #FFFFFF;
     border: 1px solid #F2F2F2;  
 }  
- .travel-trip{
-    width: Fixed (1,440px)px;
-height: Hug (685px)px;
-top: 3204px;
-padding: 100px 120px 100px 120px;
-gap: 26px;
-opacity: 0px;
-margin-bottom:100;
-}       
- .shape-img{
-   margin-left: 1100px; 
-   margin-top: 70px;
+.travel-trip{
+    width:1200px;
+    height:685px;
+    top: 3204px;
+    padding: 100px 120px 100px 120px;
+    gap: 26px;
+    opacity: 1;
+    margin-bottom:100;
+} 
+.wrapper{
+    width: 640px;
+    margin-left: -20;  
+}      
+.shape-img{
+    margin-left: 1000px; 
+    margin-top: 70px;
 }
 .pic-img{
     margin-left: 600;
     width: 640px;
-height: 485px;
-gap: 0px;
-opacity: 0px;
-margin-top: -55;
-margin-left: 300;
-
+    height: 485px;
+    gap: 0px;
+    opacity: 1;
+    margin-top: -55px;
+    margin-left: 200px;
 } 
 .trip-section{
     width: 640px;
@@ -1183,8 +1233,8 @@ margin-left: 300;
     opacity: 0px;
 }
 .video{
-    width: Fixed (1,440px)px;
-    height: Hug (1061px)px;
+    width: 1200px;
+    height: 1061px;
     top: 3889px;
     padding: 100px 0px 100px 0px;
     gap: 48px;
@@ -1207,29 +1257,29 @@ margin-left: 300;
     margin-left: 380px; 
  }   
  .vid{
-   width: 1400px;
-height:  600px;
-gap: 10px;
-opacity: 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-display: grid;
-place-items:center ;
-
+    width: 1200px;
+    height:  600px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items:center ;
 }
 .footer{
-    width: Fixed (1,440px)px;
-    height: Hug (567px)px;
+    width:1200px;
+    height:567px;
     top: 4905px;
     padding: 48px 0px 100px 0px;
     gap: 80px;
     opacity: 0px;
     color: #FFFFFF;
+    margin-top:-1000px ;
 }   
 .get-click{
-    width: Fill (1,440px)px;
-    height: Hug (132px)px;
+    width: 1200px;
+    height:132pxpx;
     gap: 48px;
     opacity: 0px;
      display:flex;
@@ -1261,24 +1311,25 @@ margin-left: 100;
     border-image-source: linear-gradient(180.24deg, rgba(255, 255, 255, 0.8) 0.21%, rgba(255, 255, 255, 0.08) 99.79%);
 }
 .divider{
-    width: 1440px;
+    width: 1200px;
     height: 0px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     margin-top:-400px;  
+    margin-left: 100px;
 }
 .travel-footer{
-    width: Fill (1,440px)px;
-    height: Hug (207px)px;
+    width:1200px;
+    height: 207px;
     padding: 0px 120px 0px 120px;
     gap: 0px;
     justify-content: space-between;
     opacity: 0px;
 }
 .group-footer{
-    width: Fixed (313px)px;
-    height: Hug (207px)px;
+    width: 313px;
+    height: 207px;
     gap: 48px;
     opacity: 0px;
 }
@@ -1295,6 +1346,20 @@ line-height: 32.96px;
 letter-spacing: 0.1em;
 margin-left:-120px ;
 }
+.footer-paragraph{
+    width: 313px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top:-150px ;
+}
 .best-travel{
     width: 313px;
     height: 64px;
@@ -1307,12 +1372,11 @@ margin-left:-120px ;
     text-align: left;
 }
 .social-media{
-    width: Hug (184px)px;
-    height: Fixed (42px)px;
+    width: 184px;
+    height: 42px;
     gap: 32px;
     opacity: 0px;
     flex: 1;
-    
 }
 .social-icons-insta{
     width: 40px;
@@ -1336,8 +1400,8 @@ border-radius: 100px 0px 0px 0px;
 opacity: 0px;
 }
 .footer-menu{
-    width: Hug (463px)px;
-    height: Hug (140px)px;
+    width: 463px;
+    height:140pxpx;
     gap: 40px;
     opacity: 0px;
     align-items: center;
@@ -1345,12 +1409,12 @@ opacity: 0px;
     flex: 1;
 }
 .menu-group{
-    width: Hug (463px)px;
-    height: Hug (44px)px;
+    width:463px;
+    height:44pxpx;
     padding: 12px 0px 0px 0px;
     gap: 60px;
     opacity: 0px;
-    margin-left: 800px;
+    margin-left: 500px;
     display: flex;
     flex: 1;
     margin-top: -120;
