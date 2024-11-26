@@ -49,6 +49,8 @@ Navigate to the project directory:
 cd Travel-website
 <h5>Screenshoot</h5>
 <img scr="images/section.png"/>
+<h5>Loom video explanation </h5>
+<p> The main components and the design of choice i used in this project are as follows. The main component are the header section, destination section, quality section, trip section, video section and the footer section.While the design of choice i used, it a responsive website.Typography, for the h1 elements i used the urbanist font and for the p element i used the gilda display. For the colors i used brand /600, orange, neutral and white colors. As for the images and video iimported them for the figma desgin. </p>
 <h5>License</h5>
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 <h5>Author</h5>
