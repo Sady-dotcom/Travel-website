@@ -957,8 +957,17 @@ margin-right: 40px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+.group-img{
+    width: 200%px;
+height: auto;
+top: -10482px;
+left: 3931px;
+gap: 0px;
+opacity: 0px;
+margin-top: 2000px;
+}
 .blurry{
-    width: 768px;
+    width: 682px;
     height: 682px;
     top: 611px;
     left: 379px;
@@ -971,8 +980,8 @@ margin-right: 40px;
     margin-top:-120;
 }
 .ellipse{
-    width: 100PX;
-    height:655px;
+    width: 925PX;
+    height:925px;
     top: 630px;
     left: 243px;
     gap: 0px;
@@ -983,7 +992,7 @@ margin-right: 40px;
      margin-top:10px;
 }
 .hero{
-    width: 768px;
+    width: 925px;
     height: 655px;
     margin-left: 500px;
     margin-top: 322px;
